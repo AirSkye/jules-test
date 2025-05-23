@@ -1,0 +1,11 @@
+{
+  "id": "java_001",
+  "language": "java",
+  "name": "Hardcoded Secret",
+  "description": "Detects hardcoded secrets in Java code.",
+  "severity": "high",
+  "tags": ["security", "java"],
+  "pattern": "some_pattern_here()",
+  "remediation": "Store secrets in environment variables or a vault.",
+  "enabled": true
+}

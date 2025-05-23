@@ -1,0 +1,11 @@
+{
+  "id": "python_002",
+  "language": "python",
+  "name": "Use of eval",
+  "description": "Detects use of eval, which can be dangerous.",
+  "severity": "medium",
+  "tags": ["security", "python", "code-smell"],
+  "pattern": "eval(...)",
+  "remediation": "Avoid using eval. Use ast.literal_eval for literal structures if applicable.",
+  "enabled": true
+}
